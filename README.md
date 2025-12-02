@@ -5,8 +5,7 @@ unpacker for linux
 sudo apt install unrar p7zip-full zstd rpm2cpio cpio
 
 # Installation
-sudo cp unpack /usr/local/bin/
-sudo chmod +x /usr/local/bin/unpack
+sudo cp unpack /usr/local/bin/; sudo chmod +x /usr/local/bin/unpack
 
 # Basic extraction
 ./unpack archive.tar.gz
